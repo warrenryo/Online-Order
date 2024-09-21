@@ -15,7 +15,7 @@
                 class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
             @else
             <div class="max-w-[480px] p-5 md:p-10">
-                <h2 class="font-bold text-3xl mb-3">Login</h2>
+                <h2 class="font-bold text-3xl mb-3">Sign In</h2>
                 <p class="mb-7">Enter your email and password to login</p>
                 <form class="space-y-5" method="POST" action="{{ route('login') }}">
                     @csrf
